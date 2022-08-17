@@ -1,0 +1,11 @@
+***LOOP INFINITO, para debugar JOB em background,
+***atraves da transacao SM50.
+***Para sair do Loop alterar variavel 'num' para 1.
+DATA: v_num TYPE c VALUE 0.
+
+WHILE v_num EQ 0.
+  IF v_num EQ 1.
+    EXIT.
+  ENDIF.
+ENDWHILE.
+***LOOP INFINITO*************************************
